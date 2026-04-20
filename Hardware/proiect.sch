@@ -105,16 +105,6 @@
 <wire x1="-0.65" y1="0.6" x2="-0.2" y2="1.05" width="0.2" layer="21"/>
 <circle x="-0.65" y="1.05" radius="0.1" width="0.2" layer="25"/>
 </package>
-<package name="ERA-1AEB3401C_0201" library_version="2">
-<smd name="1" x="0" y="0.275" dx="0.35" dy="0.25" layer="1"/>
-<smd name="2" x="0" y="-0.275" dx="0.35" dy="0.25" layer="1"/>
-<polygon width="0.1524" layer="21" pour="solid">
-<vertex x="-0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="-0.2263"/>
-<vertex x="0.0763" y="0.2263"/>
-<vertex x="-0.0763" y="0.2263"/>
-</polygon>
-</package>
 <package name="GRM011R60J152KE01L_1_0201" library_version="4">
 <smd name="1" x="0" y="0.275" dx="0.35" dy="0.25" layer="1"/>
 <smd name="2" x="0" y="-0.275" dx="0.35" dy="0.25" layer="1"/>
@@ -2234,16 +2224,6 @@ XTAL SMD 3.2 x 1.5 mm</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-0.254" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="ERA-1AEB3401C_CPF0201D7K68C1" library_version="1">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
 <symbol name="GRM011R60J152KE01L_1_GRM011R60J152KE01L" library_version="1">
 <text x="0" y="3.81093125" size="1.77843125" layer="95">&gt;NAME</text>
 <text x="0" y="-5.08848125" size="1.78096875" layer="96">&gt;VALUE</text>
@@ -2802,24 +2782,6 @@ DIN A3, landscape with location and doc. field</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ERA-1AEB3401C_CPF0201D7K68C1" prefix="R" library_version="1">
-<description>&lt;b&gt;7.68k 0201 Thin Film Surface Mount Fixed Resistor +/-0.5% 0.031W CPF0201D7K68C1&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773200-1ApdfEnglishENG_DS_1773200-1_A.pdf4-2176215-6"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ERA-1AEB3401C_CPF0201D7K68C1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ERA-1AEB3401C_0201">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3934,6 +3896,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="traseeDePutere" width="0.00761875" drill="0">
+</class>
 </classes>
 <parts>
 <part name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
@@ -3941,7 +3905,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="GND1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="SPARKFUN-POWERSYMBOLS_GND" device="" value="GND"/>
 <part name="GND2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="SPARKFUN-POWERSYMBOLS_GND" device="" value="GND"/>
 <part name="GND3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="SPARKFUN-POWERSYMBOLS_GND" device="" value="GND"/>
-<part name="R1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="10K"/>
 <part name="C38" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="GRM011R60J152KE01L_1_GRM011R60J152KE01L" device="" value="1uF"/>
 <part name="C37" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="1uF"/>
 <part name="SUPPLY2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -3965,7 +3928,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="R18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="3K3"/>
 <part name="TP_SCL" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_SDA" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
-<part name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="BMA423_BMA423" device="" value="BMA421"/>
+<part name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="BMA423_BMA423" device="" value="BMA423"/>
 <part name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="PERFECT_0402_CAP_0402" device="" value="100nF"/>
 <part name="R3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="SUPPLY7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
@@ -3989,7 +3952,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
 <part name="SUPPLY15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="C3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1pF"/>
-<part name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_2_INDUCTOR" device="_0402_L" value="3.9pH"/>
+<part name="L1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_2_INDUCTOR" device="_0402_L" value="3.9nH"/>
 <part name="C4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1pF"/>
 <part name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="N.C."/>
 <part name="SUPPLY16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
@@ -4102,8 +4065,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <part name="SUPPLY57" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY58" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="POWER_SYMBOLS_GND-BAR" device="" value="GND"/>
 <part name="Q1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
-<part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="ERA-1AEB3401C_CPF0201D7K68C1" device="" value="10K"/>
 <part name="SUPPLY24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
+<part name="R1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
+<part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.y5LjCnpPRviOQ6KYhhia9A" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4137,10 +4101,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </instance>
 <instance part="GND3" gate="1" x="81.28" y="292.1" smashed="yes">
 <attribute name="VALUE" x="81.28" y="291.846" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R1" gate="G$1" x="73.66" y="294.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.866" y="302.006" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="73.66" y="301.244" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="C38" gate="G$1" x="12.7" y="309.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.88906875" y="309.88" size="1.77843125" layer="95" rot="R90"/>
@@ -4452,15 +4412,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <instance part="SUPPLY24" gate="G$1" x="213.36" y="314.96" smashed="yes">
 <attribute name="VALUE" x="213.36" y="312.42" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="R1" gate="G$1" x="73.66" y="294.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="70.866" y="302.514" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="73.66" y="301.244" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="66.04" y1="294.64" x2="66.04" y2="312.42" width="0.1524" layer="91"/>
@@ -4684,8 +4644,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <junction x="213.36" y="320.04"/>
 <pinref part="SUPPLY24" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+</segment>
 </net>
-<net name="VBAT/2.5C" class="0">
+<net name="VBAT/2.5C" class="1">
 <segment>
 <pinref part="C37" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="312.42" x2="81.28" y2="317.5" width="0.1524" layer="91"/>
@@ -4698,10 +4662,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="312.42" x2="73.66" y2="314.96" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="314.96" x2="63.5" y2="314.96" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="TS/MR"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SDA/2.4C" class="0">
@@ -4729,8 +4693,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="88.9" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
 <label x="91.44" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0.06@L1"/>
+<wire x1="182.88" y1="256.54" x2="175.26" y2="256.54" width="0.1524" layer="91"/>
+<label x="175.26" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="VREG" class="0">
+<net name="VREG" class="1">
 <segment>
 <pinref part="C39" gate="C$1" pin="1"/>
 <wire x1="30.48" y1="307.34" x2="30.48" y2="312.42" width="0.1524" layer="91"/>
@@ -4766,7 +4735,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="25.4" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="VBUS/2.6D" class="0">
+<net name="VBUS/2.6D" class="1">
 <segment>
 <pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="314.96" x2="12.7" y2="317.5" width="0.1524" layer="91"/>
@@ -4812,12 +4781,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="71.12" y1="111.76" x2="71.12" y2="106.68" width="0.1524" layer="91"/>
 <label x="71.12" y="106.68" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0.07@M2"/>
+<wire x1="182.88" y1="254" x2="175.26" y2="254" width="0.1524" layer="91"/>
+<label x="175.26" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PMIC_INT" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="!INT"/>
 <wire x1="35.56" y1="320.04" x2="27.94" y2="320.04" width="0.1524" layer="91"/>
 <label x="27.94" y="320.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0.11@T2"/>
+<wire x1="182.88" y1="243.84" x2="175.26" y2="243.84" width="0.1524" layer="91"/>
+<label x="175.26" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4849,7 +4828,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="3V3/2.4A" class="0">
+<net name="3V3/2.4A" class="1">
 <segment>
 <pinref part="IC9" gate="G$1" pin="VOUT_2"/>
 <wire x1="68.58" y1="228.6" x2="81.28" y2="228.6" width="0.1524" layer="91"/>
@@ -4928,6 +4907,20 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="309.88" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VDDH@Y2"/>
+<wire x1="182.88" y1="236.22" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="236.22" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VDD@W1"/>
+<wire x1="182.88" y1="238.76" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="238.76" x2="157.48" y2="238.76" width="0.1524" layer="91"/>
+<junction x="167.64" y="238.76"/>
+<wire x1="157.48" y1="238.76" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
+<junction x="157.48" y="238.76"/>
+<wire x1="157.48" y1="238.76" x2="157.48" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<label x="147.32" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="LX1" class="0">
 <segment>
@@ -4950,12 +4943,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="71.12" y1="139.7" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
 <label x="71.12" y="147.32" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P0.08@N1"/>
+<wire x1="182.88" y1="251.46" x2="175.26" y2="251.46" width="0.1524" layer="91"/>
+<label x="175.26" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="IMU_INT2" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="INT2"/>
 <wire x1="68.58" y1="139.7" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
 <label x="68.58" y="147.32" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="P1.08@P2"/>
+<wire x1="182.88" y1="248.92" x2="175.26" y2="248.92" width="0.1524" layer="91"/>
+<label x="175.26" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -5437,97 +5440,46 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <pinref part="X2" gate="X$1" pin="2"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="P0.26" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.26@G1"/>
 <wire x1="182.88" y1="266.7" x2="175.26" y2="266.7" width="0.1524" layer="91"/>
 <label x="175.26" y="266.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="P0.27" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.27@H2"/>
 <wire x1="182.88" y1="264.16" x2="175.26" y2="264.16" width="0.1524" layer="91"/>
 <label x="175.26" y="264.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="P0.04" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.04/AIN2@J1"/>
 <wire x1="182.88" y1="261.62" x2="175.26" y2="261.62" width="0.1524" layer="91"/>
 <label x="175.26" y="261.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="EPD_CS/2.2D" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.05/AIN3@K2"/>
 <wire x1="182.88" y1="259.08" x2="175.26" y2="259.08" width="0.1524" layer="91"/>
 <label x="175.26" y="259.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0.06@L1"/>
-<wire x1="182.88" y1="256.54" x2="175.26" y2="256.54" width="0.1524" layer="91"/>
-<label x="175.26" y="256.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0.07@M2"/>
-<wire x1="182.88" y1="254" x2="175.26" y2="254" width="0.1524" layer="91"/>
-<label x="175.26" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0.08@N1"/>
-<wire x1="182.88" y1="251.46" x2="175.26" y2="251.46" width="0.1524" layer="91"/>
-<label x="175.26" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P1.08@P2"/>
-<wire x1="182.88" y1="248.92" x2="175.26" y2="248.92" width="0.1524" layer="91"/>
-<label x="175.26" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$38" class="0">
+<net name="P1.09" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P1.09@R1"/>
 <wire x1="182.88" y1="246.38" x2="175.26" y2="246.38" width="0.1524" layer="91"/>
 <label x="175.26" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="P0.11@T2"/>
-<wire x1="182.88" y1="243.84" x2="175.26" y2="243.84" width="0.1524" layer="91"/>
-<label x="175.26" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$42" class="0">
+<net name="HAPTIC_EN/2.6A" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.12@U1"/>
 <wire x1="182.88" y1="241.3" x2="175.26" y2="241.3" width="0.1524" layer="91"/>
 <label x="175.26" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VDDH@Y2"/>
-<wire x1="182.88" y1="236.22" x2="167.64" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="236.22" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VDD@W1"/>
-<wire x1="182.88" y1="238.76" x2="167.64" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="238.76" x2="157.48" y2="238.76" width="0.1524" layer="91"/>
-<junction x="167.64" y="238.76"/>
-<wire x1="157.48" y1="238.76" x2="147.32" y2="238.76" width="0.1524" layer="91"/>
-<junction x="157.48" y="238.76"/>
-<wire x1="157.48" y1="238.76" x2="157.48" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<label x="147.32" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -5847,8 +5799,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <attribute name="VALUE" x="195.58" y="218.44" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
 <instance part="R_PWR_EPD" gate="G$1" x="177.8" y="231.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="173.482" y="232.41" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="177.8" y="237.998" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="NAME" x="173.736" y="232.41" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="177.8" y="237.744" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -6007,17 +5959,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <pinref part="D5" gate="G$1" pin="K"/>
 <wire x1="101.6" y1="226.06" x2="104.14" y2="226.06" width="0.1524" layer="91"/>
 <label x="104.14" y="226.06" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="PREBGL" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="23"/>
-<pinref part="EPD_C11" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
-<junction x="101.6" y="81.28"/>
-<wire x1="101.6" y1="81.28" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
-<label x="101.6" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -6291,7 +6232,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <pinref part="R2_USB" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VBUS/1.5D" class="0">
+<net name="VBUS/1.5D" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="VBUS"/>
 <wire x1="294.64" y1="81.28" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
@@ -6360,7 +6301,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="248.92" y="132.08" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="VBAT/1.2A" class="0">
+<net name="VBAT/1.2A" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="CELL"/>
 <wire x1="248.92" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
@@ -6423,7 +6364,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="330.2" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="3V3/1.7D" class="0">
+<net name="3V3/1.7D" class="1">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="327.66" y1="175.26" x2="327.66" y2="180.34" width="0.1524" layer="91"/>
@@ -6451,9 +6392,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="187.96" y="218.44" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R_PWR_EPD" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="248.92" x2="177.8" y2="251.46" width="0.1524" layer="91"/>
 <label x="177.8" y="251.46" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="R_PWR_EPD" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="OUT+" class="0">
@@ -6495,14 +6436,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <label x="358.14" y="254" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SC/1.4C" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="SCL"/>
-<wire x1="365.76" y1="233.68" x2="375.92" y2="233.68" width="0.1524" layer="91"/>
-<label x="375.92" y="233.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="EPD_3V3" class="0">
+<net name="EPD_3V3" class="1">
 <segment>
 <pinref part="C1-EP-DR" gate="C$1" pin="1"/>
 <wire x1="55.88" y1="233.68" x2="55.88" y2="236.22" width="0.1524" layer="91"/>
@@ -6554,6 +6488,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="101.6" y1="238.76" x2="104.14" y2="238.76" width="0.1524" layer="91"/>
 <label x="104.14" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="23"/>
+<pinref part="EPD_C11" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<junction x="101.6" y="81.28"/>
+<wire x1="101.6" y1="81.28" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<label x="101.6" y="76.2" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="N$68" class="0">
 <segment>
@@ -6575,8 +6518,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="177.8" y1="226.06" x2="177.8" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="226.06" x2="175.26" y2="226.06" width="0.1524" layer="91"/>
 <junction x="177.8" y="226.06"/>
-<pinref part="R_PWR_EPD" gate="G$1" pin="1"/>
 <label x="175.26" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R_PWR_EPD" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SCL/1.4C" class="0">
@@ -6585,10 +6528,18 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 <wire x1="213.36" y1="132.08" x2="208.28" y2="132.08" width="0.1524" layer="91"/>
 <label x="208.28" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="SCL"/>
+<wire x1="365.76" y1="233.68" x2="375.92" y2="233.68" width="0.1524" layer="91"/>
+<label x="375.92" y="233.68" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="209,2,213.36,132.08,SCL/1.4C,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
